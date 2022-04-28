@@ -33,6 +33,11 @@
   }
 
   btnElement.addEventListener('click', () => {
+    if (clickedElement === undefined) {
+      alert('Please select a rating!');
+      return;
+    }
+
     cardStarter.classList.toggle('hide');
     cardThankYou.classList.toggle('hide');
 
