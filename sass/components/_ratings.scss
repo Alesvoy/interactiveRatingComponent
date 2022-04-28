@@ -1,0 +1,37 @@
+.ratings {
+  & ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: #7c8798;
+
+    & li {
+      text-align: center;
+      width: 4.2rem;
+      height: 4.2rem;
+      padding: 0 1.871rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 2.4rem;
+      background: #252e38;
+
+      &:hover {
+        cursor: pointer;
+        background: #fc7614;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .ratings ol li {
+    width: 5.1rem;
+    height: 5.1rem;
+    font-size: 1.6rem;
+  }
+}

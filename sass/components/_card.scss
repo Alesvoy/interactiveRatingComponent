@@ -1,0 +1,80 @@
+.card {
+  background: #212933;
+  width: 32.7rem;
+  height: 36rem;
+  padding: 2.4rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__logo {
+    background: #252e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10rem;
+    text-align: center;
+    // box-shadow: 0px 0px 9px 0px #000000;
+  }
+
+  &__image {
+    width: 1.396rem;
+    height: 1.333;
+    object-fit: cover;
+
+    &--thankYou {
+      width: 14.4rem;
+      height: 9.6rem;
+    }
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.4rem;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #86909d;
+  }
+
+  &--thankYou {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    width: 41.2rem;
+    height: 41.6rem;
+    padding: 3.2rem;
+
+    &__logo {
+      width: 4.8rem;
+      height: 4.8rem;
+    }
+
+    &__image {
+      width: 1.675rem;
+      height: 1.6rem;
+    }
+
+    &__title {
+      font-size: 2.8rem;
+    }
+
+    &__text {
+      font-size: 1.5rem;
+    }
+  }
+}

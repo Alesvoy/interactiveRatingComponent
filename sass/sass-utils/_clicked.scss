@@ -1,0 +1,10 @@
+#clicked {
+  color: #fff;
+  background: #7c8798;
+
+  &:hover {
+    cursor: pointer;
+    background: #fc7614;
+    color: #ffffff;
+  }
+}
