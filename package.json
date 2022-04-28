@@ -1,0 +1,22 @@
+{
+  "name": "interactiveratingcomponent",
+  "version": "1.0.0",
+  "description": "Challenge from Frontendmentor.io",
+  "main": "app.js",
+  "scripts": {
+    "build": "sass --watch ./sass/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alesvoy/interactiveRatingComponent.git"
+  },
+  "author": "Alejandro Butrón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alesvoy/interactiveRatingComponent/issues"
+  },
+  "homepage": "https://github.com/Alesvoy/interactiveRatingComponent#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}
